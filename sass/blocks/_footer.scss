@@ -1,0 +1,112 @@
+.top {
+    margin-top: 330px;
+    background-color: #495567;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    padding-left: 90px;
+    position: relative;
+}
+.top2 {
+    margin-top: 160px;
+    background-color: #495567;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    padding-left: 90px;
+    position: relative;
+}
+.top__inner{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.top__title {
+color: #FFF;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; 
+letter-spacing: -2.143px;
+width: 415px;
+}
+.apps {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.apps__link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.links1 {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.links {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+.top::before{
+    background-image: url(../../images/Group\ 22\ \(1\).png);
+    background-size: 1000px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    content: "";
+    top: 150px;
+    right: -19px;
+}
+.top2::before{
+    background-image: url(../../images/Group\ 22\ \(1\).png);
+    background-size: 1000px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    content: "";
+    top: 150px;
+    right: -19px;
+}
+
+.bottom {
+    background-color: #333A44;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 90px;
+    padding-right: 50px;   
+}
+.bottom__inner{
+    display: flex;
+    align-items: center;
+}
+.footer__list {
+    margin-left: 139px;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footer__item {
+    list-style: none;
+}
+.footer__link {
+    text-decoration: none;
+    color: #939CAA;
+}
+.footer__link:hover{
+    color: #FCB72B;
+}
+.apps_l {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.link_app {
+    width: 25px;
+    height: 25px;
+}

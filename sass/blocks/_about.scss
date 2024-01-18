@@ -1,0 +1,85 @@
+.about {
+    margin-bottom: 200px;
+}
+.about-inner {
+    padding-left: 90px;
+}
+.about::after{
+    background-image: url(../../images/Path\ 2\ \(1\).png);
+    background-position: center;
+    background-size: 790px 13px;
+    width: 870px;
+    height: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    top: 800px;
+    left: calc(50% - 610px);
+}
+.about-inner__list {
+    display: flex;
+    align-items: center;
+}
+.about-inner__list-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.about-inner__list-item__title {
+    margin-bottom: 27px;
+    color: #495567;
+}
+.about-inner__list-item__text {
+    color: #939CAA;
+    width: 300px;
+}
+.about::before{
+    background-image: url(../../images/Combined\ Shape\ \(3\).svg);
+    content: "";
+    background-position: center;
+    background-size: 30px 40px;
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 47px;
+    position: absolute;
+    top: 810px;
+    left:calc(50% - 470px);
+    z-index: 1;
+    background-color: #FCB72B;
+    border-radius: 50%;
+    padding: 34px;
+    padding-left: 39px;
+}
+.about-inner::after{
+    background-image: url(../../images/001-scooter.svg);
+    content: "";
+    background-position: center;
+    background-size: 30px 40px;
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 47px;
+    position: absolute;
+    top: 810px;
+    left:calc(50% - 140px);
+    z-index: 1;
+    background-color: #FCB72B;
+    border-radius: 50%;
+    padding: 34px;
+    padding-left: 39px;
+}
+.about-inner::before{
+    background-image: url(../../images/Combined\ Shape\ \(4\).svg);
+    content: "";
+    background-position: center;
+    background-size: 30px 40px;
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 47px;
+    position: absolute;
+    top: 815px;
+    left:calc(50% + 190px);
+    z-index: 1;
+    background-color: #FCB72B;
+    border-radius: 50%;
+    padding: 34px;
+    padding-left: 39px;
+}

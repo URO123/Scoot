@@ -1,0 +1,17 @@
+::selection{
+    background-color: #FCB72B;
+    color: #FFF;
+}
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'Space Mono' Arial;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow-x: hidden;
+}

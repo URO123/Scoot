@@ -1,0 +1,108 @@
+.hero {
+    background-image: url(../../images/Bitmap\ \(6\).png);
+    background-position: center;
+    background-size: 1190px 650px;
+    width: 1140px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    left: calc(50% - 569px);
+    margin-bottom: 160px;
+}
+.hero2 {
+    background-image: url(../../images/Bitmap\ \(2\).png);
+    background-position: center;
+    background-size: 1140px 180px;
+    width: 1140px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    left: calc(50% - 569px);
+}
+    .hero3 {
+        background-image: url(../../images/Bitmap\ \(4\).png);
+        background-position: center;
+        background-size: 1140px 180px;
+        width: 1140px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        left: calc(50% - 569px);
+        margin-bottom: 160px;
+    }
+.hero::before{
+    background-image: url(../../images/Path\ 2.png);
+    background-position: center;
+    background-size: 200px 7px;
+    width: 232px;
+    height: 40px;
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    top: 441px;
+    left: calc(50% - 586px);
+}
+.hero::after{
+    background-image: url(../../images/Group\ 8\ Copy.png);
+    background-position: center;
+    background-size: 270px 100px;
+    width: 447px;
+    height: 138px;
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    top: 441px;
+    right: calc(50% - 440px);
+}
+.hero-inner {
+    padding-top: 153px;
+    padding-left: 140px;
+}
+.hero-inner2 {
+    padding-top: 62px;
+    padding-left: 140px;
+    padding-bottom: 72px;
+    padding-right: 140px;
+}
+.hero-inner__title {
+    color: #FFF;
+font-family: Space Mono;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; 
+letter-spacing: -2.5px;
+width: 500px;
+}
+.hero-inner__title2 {
+    color: #FFF;
+font-family: Space Mono;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; 
+letter-spacing: -2.5px;
+width: 500px;
+}
+.hero-inner__text {
+    width: 405px;
+height: 100px;
+flex-shrink: 0;
+color: #FFF;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 90px;
+position: relative;
+}
+.hero-inner__text::before{
+    background-image: url(../../images/Rectangle\ 2.png);
+    background-position: center;
+    background-size: 84px 2px;
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    top: 17px;
+    left: -90px;
+}
